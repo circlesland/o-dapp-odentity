@@ -1,4 +1,5 @@
 {
+    "title": "°dentity",
     "type": "CssGridLayout",
     "definition": {
         "templateAreas": "'main aside'",
