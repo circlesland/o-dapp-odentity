@@ -1,18 +1,55 @@
 {
-  "needsAuthorization": false,
-  "area": "main",
-  "layout": "LayoutMain",
-  "children": [
-    {
-      "area": "main",
-      "view": "TextileLogin",
-      "data": {
-        "title": "Follow your passion",
-        "image": "/start.jpg",
-        "link": "safe"
-      },
-      "trigger": [],
-      "children": []
-    }
-  ]
+    "type": "CssGridLayout",
+    "definition": {
+        "templateAreas": "'main aside'",
+        "templateRows": "1fr",
+        "templateColumns": "3fr 1fr"
+    },
+    "children": [
+        {
+            "component": {
+                "type": "CssGridLayout",
+                "definition": {
+                    "templateAreas": "'main aside'",
+                    "templateRows": "1fr",
+                    "templateColumns": "1fr 1fr"
+                },
+                "children": [
+                    {
+                        "component": {
+                            "type": "SvelteViewLeaf",
+                            "definition": {},
+                            "viewName": "WalletLogin"
+                        },
+                        "args": {
+                            "area": "aside"
+                        }
+                    },
+                    {
+                        "component": {
+                            "type": "SvelteViewLeaf",
+                            "definition": {},
+                            "viewName": "WalletLogin"
+                        },
+                        "args": {
+                            "area": "main"
+                        }
+                    }
+                ]
+            },
+            "args": {
+                "area": "main"
+            }
+        },
+        {
+            "component": {
+                "type": "SvelteViewLeaf",
+                "definition": {},
+                "viewName": "WalletLogin"
+            },
+            "args": {
+                "area": "aside"
+            }
+        }
+    ]
 }
