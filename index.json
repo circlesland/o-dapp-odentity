@@ -22,69 +22,6 @@
         },
         {
             "component": {
-                "type": "CssGridLayout",
-                "definition": {
-                    "templateAreas": "'top' 'bottom'",
-                    "templateRows": "200px 1fr",
-                    "templateColumns": "1fr"
-                },
-                "children": [
-                    {
-                        "component": {
-                            "type": "SvelteViewLeaf",
-                            "definition": {},
-                            "viewName": "WalletMain",
-                            "data": {
-                                "balance": 12.455
-                            }
-                        },
-                        "args": {
-                            "area": "top"
-                        }
-                    },
-                    {
-                        "component": {
-                            "type": "SvelteViewLeaf",
-                            "definition": {},
-                            "viewName": "WalletMain",
-                            "data": {
-                                "transactions": [
-                                    {
-                                        "from": "0x4567765456789",
-                                        "to": "0x65456789",
-                                        "amount": "12",
-                                        "date": 3456789,
-                                        "text": "dfghjk hbjdfsd fhs dfsi ds dsi"
-                                    },
-                                    {
-                                        "from": "0x4567765456789",
-                                        "to": "0x65456789",
-                                        "amount": "12",
-                                        "date": 3456789,
-                                        "text": "dfghjk hbjdfsd fhs dfsi ds dsi"
-                                    },
-                                    {
-                                        "from": "0x4567765456789",
-                                        "to": "0x65456789",
-                                        "amount": "12",
-                                        "date": 3456789,
-                                        "text": "dfghjk hbjdfsd fhs dfsi ds dsi"
-                                    }
-                                ]
-                            }
-                        },
-                        "args": {
-                            "area": "bottom"
-                        }
-                    }
-                ]
-            },
-            "args": {
-                "area": "main"
-            }
-        },
-        {
-            "component": {
                 "type": "SvelteViewLeaf",
                 "definition": {},
                 "viewName": "WalletFooter"
