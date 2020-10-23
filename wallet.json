@@ -13,7 +13,7 @@
                 "definition": {},
                 "viewName": "WalletHeader",
                 "data": {
-                    "title": "Index"
+                    "title": "wallet"
                 }
             },
             "args": {
