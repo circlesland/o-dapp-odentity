@@ -1,0 +1,51 @@
+{
+  "children": [
+    {
+      "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
+      "args": { "area": "hleft" }
+    },
+    {
+      "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
+      "args": { "area": "hright" }
+    },
+    {
+      "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
+      "args": { "area": "bottom" }
+    },
+    {
+      "child": {
+        "children": [
+          {
+            "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
+            "args": { "area": "content" }
+          },
+          {
+            "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
+            "args": { "area": "content" }
+          },
+          {
+            "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
+            "args": { "area": "content" }
+          },
+          {
+            "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
+            "args": { "area": "content" }
+          }
+        ],
+        "type": "CssGridTemplate",
+        "definition": {
+          "templateAreas": "'content'",
+          "templateColumns": "1fr",
+          "templateRows": "1fr"
+        }
+      },
+      "args": { "area": "main" }
+    }
+  ],
+  "type": "CssGridTemplate",
+  "definition": {
+    "templateAreas": "'hleft hright' 'main main' 'bottom bottom'",
+    "templateColumns": "1fr 1fr",
+    "templateRows": "60px 1fr 60px"
+  }
+}

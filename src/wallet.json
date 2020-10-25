@@ -1,0 +1,14 @@
+{
+  "children": [
+    {
+      "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
+      "args": { "area": "hright" }
+    }
+  ],
+  "type": "CssGridTemplate",
+  "definition": {
+    "templateAreas": "'hleft hright' 'main main' 'bottom bottom'",
+    "templateColumns": "1fr 1fr",
+    "templateRows": "60px 1fr 60px"
+  }
+}

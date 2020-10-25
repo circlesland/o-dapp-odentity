@@ -1,1 +1,1 @@
-# o-service-ipfs
+Odentity DAPP
