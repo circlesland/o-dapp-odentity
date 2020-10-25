@@ -15,7 +15,7 @@
       {
         "child": {
           "type": "Molecule",
-          "viewName": "Start"
+          "viewName": "Install"
         },
         "args": {
           "area": "main"

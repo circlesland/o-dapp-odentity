@@ -15,7 +15,7 @@
       {
         "child": {
           "type": "Molecule",
-          "viewName": "Start"
+          "viewName": "SaveProfileImage"
         },
         "args": {
           "area": "main"

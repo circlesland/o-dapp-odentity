@@ -15,7 +15,7 @@
       {
         "child": {
           "type": "Molecule",
-          "viewName": "Start"
+          "viewName": "Dapps"
         },
         "args": {
           "area": "main"

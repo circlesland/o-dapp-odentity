@@ -9,13 +9,13 @@
     "definition": {
       "templateAreas": "'main'",
       "templateColumns": "1fr",
-      "templateRows": "100%"
+      "templateRows": "99%"
     },
     "children": [
       {
         "child": {
           "type": "Molecule",
-          "viewName": "Start"
+          "viewName": "Login"
         },
         "args": {
           "area": "main"
