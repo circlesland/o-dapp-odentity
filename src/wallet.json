@@ -1,14 +1,18 @@
 {
-  "children": [
-    {
-      "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
-      "args": { "area": "hright" }
+  "title": "°wallet",
+  "dataSources": ["wallet.de.json", "wallet.en.json"],
+  "ui": {
+    "children": [
+      {
+        "child": { "type": "Molecule", "viewName": "ExampleButtonArray" },
+        "args": { "area": "hright" }
+      }
+    ],
+    "type": "CssGridTemplate",
+    "definition": {
+      "templateAreas": "'hleft hright' 'main main' 'bottom bottom'",
+      "templateColumns": "1fr 1fr",
+      "templateRows": "60px 1fr 60px"
     }
-  ],
-  "type": "CssGridTemplate",
-  "definition": {
-    "templateAreas": "'hleft hright' 'main main' 'bottom bottom'",
-    "templateColumns": "1fr 1fr",
-    "templateRows": "60px 1fr 60px"
   }
 }
