@@ -21,7 +21,7 @@ jobs:
           secret: ${{ secrets.TEXTILE_ACCOUNT_SECRET }}
           bucket: 'odentity'
           thread: 'bafk3hjqnsapk7bbedswqq5pfhi3jue3kq7h6wnhgd5o7eedlrkroeva'
-          path: 'dapps/omo/odentity/'
+          path: 'src/'
       - run: echo "bucket - ${{ steps.odentity.outputs.key }}"
       - run: echo "ipfs - ${{ steps.odentity.outputs.ipfs }}"
       - run: echo "ipfs link - ${{ steps.odentity.outputs.ipfsUrl }}"
